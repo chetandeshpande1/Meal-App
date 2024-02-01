@@ -1,0 +1,96 @@
+/* Global styles for the body */
+body {
+    background-color: #1c1c1c; /* Dark background color */
+    background: linear-gradient(50deg #343a40 46%, #1c1c1c 0%); /* Dark gradient background */
+    color: #fff; /* Text color */
+    margin: 0;
+    transition: color 0.5s ease-in-out; /* Transition for text color */
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+/* Card styles */
+.card {
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.3s, background-color 0.3s; /* Transition for card transform and background-color */
+    margin-bottom: 20px;
+    background-color: #1c1c1c; /* Dark background color for cards */
+    border: 1px solid #343a40; /* Border color for cards */
+    border-radius: 10px; /* Border radius for cards */
+}
+
+/* Card hover effect */
+.card:hover {
+    transform: scale(1.05);
+    background-color: #212529; /* Dark background color on hover */
+}
+
+/* Card image styles */
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 10px; /* Adjust border radius for image */
+    border-top-right-radius: 10px;
+}
+
+/* Card body styles */
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles for card title and text */
+.card-title, .card-text {
+    text-align: center;
+}
+
+/* Button group styles */
+.btn-group {
+    margin-top: auto;
+    margin-top: 10px;
+}
+
+/* Button styles within button group */
+.btn-group button {
+    margin-right: 5px;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+/* Form control styles */
+.form-control {
+    /* width: 100%;
+    max-width: 400px;
+    margin: 0 auto; */
+    border-radius: 50px;
+}
+
+/* Heading 1 styles */
+h1 {
+    color: #e9e0e0;
+    text-shadow: 2px 2px 4px #de2e2e;
+}
+
+/* Modal content styles */
+.modal-content {
+    color: #212529; /* Adjust the color as needed */
+}
+
+/* Row styles */
+.row {
+  position: relative; /* Set the position of the parent container to relative */
+}
+
+/* Show Favorites button styles */
+#showfavbtn.btn-outline-light {
+    position: absolute;
+    right: 0;
+    float: right;
+}
+
+    
