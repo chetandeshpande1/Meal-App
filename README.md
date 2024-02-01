@@ -4,3 +4,8 @@ The Meal App is a simple web application in which users are allows to search for
 Technologies used:
 HTML, CSS, JavaScript, Vanilla JavaScript, Bootstrap
 
+Technologies used:
+HTML, CSS, Vanilla Javascript, Bootstrap
+
+Demo:
+https://chetandeshpande1.github.io/Meal-App/
